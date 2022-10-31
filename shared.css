@@ -1,0 +1,73 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+#logo a {
+  padding: 10px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  color: blueviolet;
+  font-size: 45px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+header a {
+  color: rgb(255, 251, 0);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 12px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0) ;
+  border-radius:  10px;
+}
+
+header  nav a:hover {
+  color: rgb(77, 77, 77);
+  background-color: rgb(255, 251, 0); 
+}
+
+footer {
+  background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
+  padding: 36px;
+}
+
+footer li {
+  height: 80px;
+  width: 80px;
+  margin: 0 50px;
+}
+
+footer img {
+  height: 100%;
+  width: 100%;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
